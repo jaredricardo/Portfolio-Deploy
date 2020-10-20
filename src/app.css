@@ -1,0 +1,629 @@
+.wrapper {
+    /* background: url(images/option3.jpg) no-repeat center center fixed;  */
+    /* height: 100vh; */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* opacity: 1;
+    background-color: white; */
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    background-color:  transparent;
+}
+
+.navbar-items {
+    margin: 40px 40px;
+}
+
+.navbar-items ul {
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.navbar-items li {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 620px) {
+    .navbar-items {
+        margin: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .navbar-items {
+        margin: 20px 10px;
+    }
+}
+
+.no-margin {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+
+}
+
+.link {
+    cursor: pointer;
+    color:black;
+    opacity: .7;
+}
+
+.link:hover {
+    opacity: 1;
+    color: black;
+    text-decoration: none;
+}
+
+
+.link > .active {
+    color:black;
+    border-bottom: 1px solid black;
+    opacity: 1;
+    text-decoration: none;
+}
+
+/* // THEME CHANGE BUTTON //  */
+
+.theme-button {
+  
+    margin-top: 4px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    border: 1px solid rgb(26, 26, 26);
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: -6px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.719);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+
+  
+  
+  input:checked + .slider {
+    border: 1px solid black;
+    background-color:transparent;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+  
+  .slider.round {
+    border-radius: 24px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  /* FONT COMPONENTS */
+
+  @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto') url(./fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf) format('truetype');
+  }
+
+  @font-face {
+      font-family: 'Inconsolata';
+      src: local('Inconsolata') url(./fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf) format('truetype')
+  }
+
+  .BAW-font {
+      font-family: Inconsolata, sans-serif; 
+      font-weight: 100;
+  }
+
+
+/* HOME COMPONENT  */
+
+.home {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(96, 157, 248);
+}
+
+#hello {
+    font-size: 70px;
+}
+
+    /* ROW SETTINGS */
+
+.row-height-set-100 {
+    height: 100%;
+    align-content: center;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.row-height-set-100-2 {
+    height: 100%;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.row-height-set-90 {
+    height: 90%;
+    align-content: center;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.row-height-set-10 {
+    height: 10%;
+    align-content: center;
+    padding-right: 5%;
+    padding-left:  5%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.row-height-set-40 {
+    height: 40%;
+    align-content: center;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+/* ABOUT */
+
+.about {
+    color:black;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(243, 252, 122);
+    z-index: 1;
+}
+
+#about-jared {
+    font-size: 50px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.about ul li {
+    margin: 10px 0;
+}
+
+
+/* RESUME COMPONENT  */
+
+.resume {
+    color: black;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(81, 252, 115);
+    z-index: 1;
+}
+
+.resume-header {
+    border-bottom: 1px solid black;
+    font-size: 40px;
+}
+
+.resume ul {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding: 0;
+}
+
+.resume ul li {
+    margin: 5px 20px;
+}
+
+
+/* PORTFOLIO COMPONENT  */
+
+.portfolio {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(255, 128, 111);
+    z-index: 1;
+}
+
+#portfolio-jared {
+    font-size: 40px;
+}
+
+/* CONTACT COMPONENT  */
+
+.contact {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(255, 192, 234);
+    z-index: 1;
+}
+
+.contact img {
+    height: 60vh;
+    width: auto;
+}
+
+.contact ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+
+/* SCROLL BUTTON */
+
+.scroll-button {
+    bottom: 0;
+    position: absolute;
+}
+
+.scroll-button button {
+    opacity: .5;
+    border-radius: 10%;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 40px;
+}
+e
+.scroll-button button:focus {
+    outline: none;
+    border: none;
+}
+
+.scroll-button button:hover {
+    opacity:1;
+}
+
+
+/* ////////// BAW //////////// */
+
+
+/* HOME BAW COMPONENT  */
+
+.homeBAW {
+    color: black;
+    border-bottom: 2px dotted black;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ABOUT BAW COMPONENT */
+
+.aboutBAW {
+    color: black;
+    border-bottom: 2px dotted black;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.aboutBAW ul {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+
+.aboutBAW ul li {
+    margin: 10px 0;
+}
+
+.extra-margin-bottom-div {
+    margin-top: 20px;
+}
+
+.extra-margin-upper-div {
+    margin-bottom: 20px; 
+}
+
+
+/* RESUME BAW COMPONENT  */
+
+.resumeBAW {
+    color: black;
+    border-bottom: 2px dotted black;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    
+}
+
+.resumeBAW ul {
+    margin-top: 40px; 
+    padding: 0;
+}
+
+.resumeBAW ul li {
+    margin: 5px 20px;
+}
+
+/* PORTFOLIO BAW COMPONENT  */
+
+.portfolioBAW {
+    color: black;
+    border-bottom: 2px dotted black;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.center-when-small {
+    text-align: left;
+}
+
+    /* FADE OFFSET PROBLEM FIX */
+
+.fade-fix-top {
+    height: 25%;
+}
+
+.fade-fix-prerender {
+    height: 100%;
+    width: 100%;
+}
+
+.t2 {
+   margin-bottom: 50%; 
+}
+
+/* SPECIFIC QUERIES FOR SPECIFIC FADE OFFSET PROBLEM */
+
+@media screen and (max-width: 460px) {
+    .fade-fix-top {
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .fade-fix-top {
+        height: 40%;
+    }
+    .extra-margin-upper-div {
+        margin: 0;
+    }
+    .t2 {
+        margin-top: 0;
+        margin-bottom: 60%;
+    }
+}
+
+
+/* CONTACT BAW COMPONENT  */
+
+.contactBAW {
+    color: black;
+    border-bottom: 2px dotted black;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.contactBAW img {
+    height: 60vh;
+    width: auto;
+}
+
+.contactBAW ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.contactBAW ul li {
+    margin: 10px 0;
+}
+
+.extra-padding-top{
+   padding-top: 20%;
+}
+
+
+/* PARTICLE RESIZE FIX */
+
+.resize-fix {
+    padding-top: 10vh;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+ /* MEDIA QUERIES  */
+
+    /* HOME   */
+
+ @media screen and (max-width: 693px) {
+    #hello {
+        font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .link {
+        font-size: 15px;
+    }
+  }
+
+    /* ABOUT BOTH BAW AND NORMAL*/
+
+  @media screen and (max-width: 845px) {
+      #about-jared {
+        font-size: 40px;
+      }
+      .aboutBAW ul {
+        font-size: 14px;
+      }
+      .about ul {
+        font-size: 14px;
+      }
+  }
+
+  @media screen and (max-width: 660px) {
+    #about-jared {
+        text-align: center;
+        font-size: 30px;
+    }
+    .aboutBAW ul {
+        text-align: center;
+        font-size: 14px;
+    }
+    .about ul {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* PORTFOLIO BAW */
+
+@media screen and (max-width: 991px) {
+    .center-when-small {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #portfolio-jared {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #portfolio-jared {
+        font-size: 25px;
+    }
+}
+
+/* RESUME BOTH BAW AND REGULAR  */
+
+@media screen and (max-width: 767px) {
+    .resume-header {
+        font-size: 30px;
+    }
+    .resumeBAW ul {
+        font-size: 15px;
+    }
+    .resumeBAW p {
+        font-size: 14px;
+    }
+    .resume ul {
+        font-size: 15px;
+    }
+    .resume p {
+        font-size: 14px;
+    }
+    .resume-header {
+        font-size: 29px;
+    }
+}
+
+/* CONTACT BAW */
+
+
+@media screen and (max-width: 763px) {
+    .contactBAW img {
+        height: 40vh;
+        width: auto;
+    }
+    .contact img {
+        height: 40vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .contactBAW img {
+        margin-bottom: 40px;
+    }
+    .contact img {
+        margin-bottom: 40px;
+    }
+}
+
+/* overflow fix for randomizer */
+
+.no-overflow {
+    max-height: 170px;
+    max-width:247px;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
