@@ -627,3 +627,29 @@ e
     display: flex;
     overflow: hidden;
 }
+
+/* HEIGHT MEDIA QEUERY FIXES  */
+
+@media screen and (max-height: 745px) {
+    .resume-header {
+        font-size: 20px;
+    }
+    .resumeBAW ul{
+        margin-top:5px;
+    }
+    .resumeBAW ul li {
+        font-size: 13px;
+    }
+    .resumeBAW p {
+        font-size: 12px;
+    }
+    .resume ul{
+        margin-top:5px 
+    }
+    .resume ul li {
+        font-size: 13px;
+    }
+    .resume p {
+        font-size: 12px;
+    }
+}

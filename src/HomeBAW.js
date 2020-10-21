@@ -23,11 +23,7 @@ class HomeBAW extends Component {
     }
 
     shouldComponentUpdate() {
-        if(this.state.screenWidth <= 992) {
-            return true
-        } else {
-            return false
-        }
+        return false
     }
 
     render() {

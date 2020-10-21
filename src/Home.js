@@ -4,7 +4,6 @@ import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-
 class Home extends Component {
     constructor(props) {
         super(props)
@@ -23,11 +22,7 @@ class Home extends Component {
     }
 
     shouldComponentUpdate() {
-        if(this.state.screenWidth <= 992) {
-            return true
-        } else {
-            return false
-        }
+        return false
     }
 
     render() {

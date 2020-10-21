@@ -64,7 +64,7 @@ class About extends Component {
             }
         }
 
-        const prerender =   <div style={{color: 'white'}}> 
+        const prerender =   <div style={{color: 'rgb(243, 252, 122)'}}> 
                                 <li>Writing</li>
                                 <li>Finance</li>
                                 <li>Photography</li>
