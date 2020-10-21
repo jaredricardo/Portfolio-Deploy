@@ -271,6 +271,9 @@
     margin: 5px 20px;
 }
 
+.resume p {
+    font-size: 20px;
+}
 
 /* PORTFOLIO COMPONENT  */
 
@@ -409,6 +412,11 @@ e
 .resumeBAW ul li {
     margin: 5px 20px;
 }
+
+.resumeBAW p {
+    font-size: 20px;
+}
+
 
 /* PORTFOLIO BAW COMPONENT  */
 
