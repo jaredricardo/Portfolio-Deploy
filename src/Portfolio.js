@@ -48,7 +48,7 @@ class Portfolio extends Component {
         }
 
         const video = <ReactPlayer      className="d-flex justify-content-center align-end"
-                                        url="https://jaredricardo.github.io/Portfolio-Deploy/videos/demo_video.MP4"
+                                        url="videos/demo_video.MP4"
                                         muted={true}
                                         playing={true}
                                         loop={true}
@@ -72,7 +72,7 @@ class Portfolio extends Component {
                 }, 1000)
                 return  <FadeIn transitionDuration={2000}> 
                             <ReactPlayer    className="d-flex justify-content-center align-end"
-                                            url="https://jaredricardo.github.io/Portfolio-Deploy/videos/demo_video.MP4"
+                                            url="videos/demo_video.MP4"
                                             muted={true}                
                                             playing={true}
                                             loop={true}
