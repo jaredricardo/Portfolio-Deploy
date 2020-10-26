@@ -117,14 +117,23 @@ class ContactBAW extends Component {
                             <img className="margin-small-screen" src={selfie}></img>
                     </Col>
                     <Col className="d-flex justify-content-center align-items-center small-screen-padding-2">
-                        <VisibilitySensor partialVisibility={true} offset={{top:100}}>
+                        {/* <VisibilitySensor partialVisibility={true} offset={{top:100}}>
                             {({isVisible}) => 
                                 <div className="no-overflow">
                                     {isVisible ?
                                     visible() : notVisible() }
                                 </div>
                             }
-                        </VisibilitySensor>
+                        </VisibilitySensor> */}
+
+                    <ul >
+                        <li>                {email}     </li>
+                        <li ><a target="_blank" href="https://www.linkedin.com/in/jared-ricardo-5802b81b9/">   {linkedIn}  </a></li>
+                        <li><a target="_blank" href="https://github.com/jaredricardo">    {gitHub}    </a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/jared_ricardo/">    {instagram}  </a></li>
+                    </ul>
+
+                        
                     </Col>
 
                     <Container className="d-flex justify-content-center align-items-top">
