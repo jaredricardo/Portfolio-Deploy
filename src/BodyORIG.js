@@ -57,7 +57,7 @@ class BodyORIG extends Component {
         }
             
         const changeNavClass = () => {
-            return (isColorful) ? 'colorful-font p-0' : 'BAW-font p-0'
+            return (isColorful) ? 'colorful-font p-0' : 'BAW-font p-0 background-alpha'
         }
 
         const displayCurrentTheme = () => {
@@ -91,7 +91,7 @@ class BodyORIG extends Component {
             <Container fluid className="body p-0">
             
 
-<div className="no-margin fixed-top" >
+<div className="no-margin fixed-top ">
    <Row className={changeNavClass()}>
         <Col xl={7} md={12} className={centerNav()}>
             <Navbar className="navbar-items p-0">

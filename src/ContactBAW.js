@@ -47,16 +47,18 @@ class ContactBAW extends Component {
             return Math.floor(Math.random() * t)
         }
 
+        //possiblly add this functionality back at later time, for now defunct
+
         const randomizeThenDisplay = (e,l,g,i) => {
             if(this.state.hasBeenRendered === false) {
-                const t1 = 800
+                const t1 = 600
                 const t2 = t1+ 800
 
                 setTimeout(()=> {
                     this.setState({
                         hasBeenRendered: true
                     })
-                }, 500)
+                }, 601)
 
                 // set state of randomized 
 
@@ -68,42 +70,15 @@ class ContactBAW extends Component {
                         instagram: randomizeWord(i)
                     })
                 }, randomTime(t1))
-                
-                // setTimeout(() => {
-                //     this.setState({
-                //         linkedIn: randomizeWord(l)
-                //     })
-                // }, randomTime(t1))
-                // setTimeout(() => {
-                //     this.setState({
-                //         gitHub: randomizeWord(g)
-                //     })
-                // }, randomTime(t1))
-                // setTimeout(() => {
-                //     this.setState({
-                //         instagram: randomizeWord(i)
-                //     })
-                // }, randomTime(t1))
+            
 
                 // set state back to original 
 
                 setTimeout(() => {
                     this.setState({
-                        email: 'Jaredricardo94@gmail.com'
-                    })
-                }, randomTime(t2))
-                setTimeout(() => {
-                    this.setState({
-                        linkedIn: 'LinkedIn'
-                    })
-                }, randomTime(t2))
-                setTimeout(() => {
-                    this.setState({
-                        gitHub: 'GitHub'
-                    })
-                }, randomTime(t2))
-                setTimeout(() => {
-                    this.setState({
+                        email: 'Jaredricardo94@gmail.com',
+                        linkedIn: 'LinkedIn',
+                        gitHub: 'GitHub',
                         instagram: 'Instagram'
                     })
                 }, randomTime(t2))

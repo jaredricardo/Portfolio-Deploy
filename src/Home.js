@@ -4,6 +4,7 @@ import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
+
 class Home extends Component {
     constructor(props) {
         super(props)

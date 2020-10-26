@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player'
 import VisibilitySensor from 'react-visibility-sensor'
 import FadeIn from 'react-fade-in';
 
+
 class PortfolioBAW extends Component {
     constructor(props) {
         super(props)
@@ -46,14 +47,36 @@ class PortfolioBAW extends Component {
             return screenWidth >= 991 ? "d-flex justify-content-end align-items-center center-when-small" : " d-flex justify-content-center align-items-bottom center-when-small extra-margin-bottom-div t2"
         }
 
-        const video = <ReactPlayer      className="d-flex justify-content-center align-end"
-                                        url="/videos/demo_video.mp4"
+        const adjustPlayerHeight = () => {
+            if(screenWidth > 575) { 
+                return "520px"
+            }
+            if(screenWidth < 575 && screenWidth > 400) {
+                return "300px"
+            }
+            if(screenWidth < 400) {
+                return "200px"
+            }
+        }
+
+        const video = 
+                        // <iframe 
+                        //     className="iframe"
+                        //     src="https://www.youtube.com/embed/Q_L7lyYFSo8" 
+                        //     frameBorder="0" 
+                        //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        //     allowFullScreen>
+                        // </iframe>
+
+
+                    <ReactPlayer      className="d-flex justify-content-center align-end"
+                                        url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
                                         muted={true}
                                         playing={true}
                                         loop={true}
                                         controls={true}
-                                        height='auto'
-                                        width='100%' 
+                                        height={adjustPlayerHeight()}
+                                        width="100%"
                                         />
 
         const prerender =   <div style={{opacity:"0", border: '1px solid red'}}>
@@ -67,17 +90,26 @@ class PortfolioBAW extends Component {
                 setTimeout(()=> {
                     this.setState({
                         doNotRerender: true
-                    })
+                    })  
                 }, 1000)
-                return  <FadeIn transitionDuration={2000}> 
+                return  <FadeIn transitionDuration={2000} > 
+
+        {/* <iframe 
+            className="iframe"
+            src="https://www.youtube.com/embed/Q_L7lyYFSo8" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+        </iframe> */}
+
                             <ReactPlayer    className="d-flex justify-content-center align-end"
-                                            url="/videos/demo_video.mp4"
+                                            url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
                                             muted={true}                
                                             playing={true}
                                             loop={true}
                                             controls={true}
-                                            height='auto'
-                                            width='100%' 
+                                            height={adjustPlayerHeight()}
+                                            width="100%"
                                             />                         
                         </FadeIn>
                 } else if(this.state.hasBeenRendered === true) {
@@ -105,16 +137,14 @@ class PortfolioBAW extends Component {
                             <span id="portfolio-jared"> My recent projects include a financial dashboard, a music blog, and few personal websites. </span>
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>
-                        <div> 
                         <VisibilitySensor partialVisibility={true} offset={{top: 100}}>
                             {({isVisible}) => 
-                                <div>
+                                <div className="width-fix">
                                     {isVisible ?
                                     visible() : notVisible() }
                                 </div>
                             }
                         </VisibilitySensor>
-                        </div>
                     </Col>
                 </Row>
             </div>

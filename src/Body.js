@@ -68,7 +68,6 @@ class Body extends Component {
                         <Container fluid className="p-0 m-0 colorful-font">
                             <FadeIn transitionDuration={800}
                                     delay={100}>
-
                                 <Home />
                                 <About />
                                 <Portfolio />
@@ -91,7 +90,7 @@ class Body extends Component {
             <Container fluid className="body p-0">
             
 
-<div className="no-margin fixed-top" >
+<div className="no-margin fixed-top background-alpha">
    <Row className={changeNavClass()}>
         <Col xl={7} md={12} className={centerNav()}>
             <Navbar className="navbar-items p-0">

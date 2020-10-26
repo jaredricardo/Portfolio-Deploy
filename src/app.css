@@ -46,6 +46,14 @@
     }
 }
 
+.background-alpha {
+    position: relative;
+    height: 100px;
+    background: rgba(255,255,255,.95);
+    /* background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)) */
+    /* background: linear-gradient(red, rgba(255,255,255,0)) */
+}
+
 .no-margin {
     margin-right: 0 !important;
     margin-left: 0 !important;
@@ -417,7 +425,6 @@ e
     font-size: 20px;
 }
 
-
 /* PORTFOLIO BAW COMPONENT  */
 
 .portfolioBAW {
@@ -660,4 +667,11 @@ e
     .resume p {
         font-size: 12px;
     }
+}
+
+
+
+.width-fix{
+        /* height:500px; */
+    width:100%;
 }
