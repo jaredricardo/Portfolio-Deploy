@@ -57,7 +57,7 @@ class BodyORIG extends Component {
         }
             
         const changeNavClass = () => {
-            return (isColorful) ? 'colorful-font p-0' : 'BAW-font p-0 background-alpha'
+            return (isColorful) ? 'colorful-font p-0' : 'BAW-font p-0'
         }
 
         const displayCurrentTheme = () => {

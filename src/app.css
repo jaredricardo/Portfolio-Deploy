@@ -16,7 +16,7 @@
 }
 
 .navbar-items {
-    margin: 40px 40px;
+    margin: 20px 40px;
 }
 
 .navbar-items ul {
@@ -44,14 +44,6 @@
     .navbar-items {
         margin: 20px 10px;
     }
-}
-
-.background-alpha {
-    position: relative;
-    height: 100px;
-    background: rgba(255,255,255,.95);
-    /* background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)) */
-    /* background: linear-gradient(red, rgba(255,255,255,0)) */
 }
 
 .no-margin {
@@ -163,6 +155,14 @@
   .BAW-font {
       font-family: Inconsolata, sans-serif; 
       font-weight: 100;
+      height: 60px;
+      background: white;
+  }
+
+  @media screen and (max-width: 454px) {
+      .BAW-font {
+          height: 75px;
+      }
   }
 
 
@@ -474,6 +474,12 @@ e
     .t2 {
         margin-top: 0;
         margin-bottom: 60%;
+    }
+}
+
+@media screen and (max-height: 670px) {
+    .t2 {
+        margin-bottom: 30%;
     }
 }
 
