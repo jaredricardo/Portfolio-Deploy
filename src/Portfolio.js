@@ -7,7 +7,6 @@ import VisibilitySensor from 'react-visibility-sensor'
 import FadeIn from 'react-fade-in';
 
 
-
 class Portfolio extends Component {
     constructor(props) {
         super(props)
@@ -135,7 +134,11 @@ class Portfolio extends Component {
             <div className="portfolio" id="portfolio">
                 <Row className="row-height-set-100-2">
                     <Col xl={4} lg={4} md={12} className={fixTopCol()}>
-                            <span id="portfolio-jared"> My recent projects include a financial dashboard, a music blog, and few personal websites. </span>
+                        <span id="portfolio-jared"> My recent projects include a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank" className="color-links">financial dashboard</a>, a&nbsp; 
+                            <a href={'https://introversion.io/'} target="_blank" className="color-links">music blog</a>, and 
+                            a few <a href={'https://debscupcakelove.com/'} 
+                            target="_blank" className="color-links">small business websites</a>.
+                        </span>
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>
                         <VisibilitySensor partialVisibility={true} offset={{top: 100}}>

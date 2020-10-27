@@ -298,6 +298,14 @@
     font-size: 40px;
 }
 
+.color-links {
+    color:rgb(255, 254, 184)
+}
+
+.color-links:hover {
+    color:rgb(254, 255, 184)
+}
+
 /* CONTACT COMPONENT  */
 
 .contact {
@@ -455,6 +463,7 @@ e
 .t2 {
    margin-bottom: 50%; 
 }
+
 
 /* SPECIFIC QUERIES FOR SPECIFIC FADE OFFSET PROBLEM */
 
