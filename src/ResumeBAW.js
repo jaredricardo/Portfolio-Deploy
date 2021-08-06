@@ -18,9 +18,9 @@ export default function ResumeBAW(props) {
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Bootstrap 4</li>
+                        <li>Bootstrap</li>
                         <li>React (Router + Bootstrap) </li>
-                        <li>Adobe Photoshop & InDesign</li>
+                        <li>Shopify / Liquid </li>
                     </ul>
                     </Container>
                 </Col>
@@ -31,10 +31,10 @@ export default function ResumeBAW(props) {
                         Education, work, exhibitions:
                     </h2> 
                     <ul>
+                        <li>Front-end developer intern - A Fresh Sip</li>
+                        <li>Captain / Server - Augustine NYC</li>
                         <li>The Ohio State University  - B.A. in English | Minor in finance </li>
-                        <li>Augustine NYC - Captain / Server </li>
                         <li>Best in Show, photography, imageOHIO 2017</li>
-                        <li>Underwater, 934 Gallery - Columbus, OH </li>
                         <li>Center Forward 2016, Center for Fine Art Photoshop - Denver, CO</li>
                         <li>Intimacy, PH21, Gallery - Budapest, Hungary </li> 
                     </ul>
@@ -44,10 +44,8 @@ export default function ResumeBAW(props) {
 
             <Row className="row-height-set-10 d-flex justify-content-center align-items-center">
                 <p>
-                    You can find my full resumé&nbsp;<a href={resume} target="_blank">here</a>, 
-                    my arts CV&nbsp;<a href={cv} target="_blank">here</a>, 
-                    and a link to my arts website:&nbsp;<a href={'https://www.jaredricardo.com/'} 
-                    target="_blank">Jaredricardo.com</a>
+                    You can find my full resumé&nbsp;<a href={resume} target="_blank">here</a> and
+                    my arts CV&nbsp;<a href={cv} target="_blank">here</a>.
                 </p>
             </Row>
           

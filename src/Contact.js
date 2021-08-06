@@ -15,7 +15,6 @@ class Contact extends Component {
             email: 'Jaredricardo94@gmail.com',
             linkedIn: 'LinkedIn',
             gitHub: 'GitHub',
-            instagram: 'Instagram'
         }
     }
 
@@ -24,7 +23,7 @@ class Contact extends Component {
         const email = this.state.email
         const linkedIn = this.state.linkedIn
         const gitHub = this.state.gitHub
-        const instagram = this.state.instagram
+       
         
         return (
             <div className="contact" id="contact">
@@ -37,7 +36,6 @@ class Contact extends Component {
                             <li>                {email}     </li>
                             <li ><a target="_blank" href="https://www.linkedin.com/in/jared-ricardo-5802b81b9/">   {linkedIn}  </a></li>
                             <li><a target="_blank" href="https://github.com/jaredricardo">    {gitHub}    </a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/jared_ricardo/">    {instagram}  </a></li>
                         </ul>
                     </Col>  
                     <Container className="d-flex justify-content-center align-items-top">

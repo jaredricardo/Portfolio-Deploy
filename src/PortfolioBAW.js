@@ -70,7 +70,8 @@ class PortfolioBAW extends Component {
 
 
                     <ReactPlayer      className="d-flex justify-content-center align-end"
-                                        url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                        // url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                        url="https://www.youtube.com/watch?v=gNH9xXXhXA0"
                                         muted={true}
                                         playing={true}
                                         loop={true}
@@ -103,7 +104,8 @@ class PortfolioBAW extends Component {
         </iframe> */}
 
                             <ReactPlayer    className="d-flex justify-content-center align-end"
-                                            url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                            // url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                            url="https://www.youtube.com/watch?v=gNH9xXXhXA0"
                                             muted={true}                
                                             playing={true}
                                             loop={true}
@@ -134,11 +136,10 @@ class PortfolioBAW extends Component {
             <div className="portfolioBAW" id="portfolio">
                 <Row className="row-height-set-100-2">
                     <Col xl={4} lg={4} md={12} className={fixTopCol()}>
-                        <span id="portfolio-jared"> My recent projects include a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard</a>, a&nbsp; 
-                            <a href={'https://introversion.io/'} target="_blank">music blog</a>, and 
-                            a few <a href={'https://debscupcakelove.com/'} 
-                            target="_blank">small business websites</a>.
-                        </span>
+                        <span id="portfolio-jared"> My recent projects include creating a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard</a>,  
+                           a variation of Conway's Game of Life, <a href={'https://jaredricardo.github.io/Pixel-Sorter/'}
+                            target="_blank">a pixel sorting application</a>, and building an e-commerce platform for <a href={'https://afreshsip.myshopify.com/'}> A Fresh Sip.</a> 
+                        </span> 
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>
                         <VisibilitySensor partialVisibility={true} offset={{top: 100}}>

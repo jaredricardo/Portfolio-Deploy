@@ -48,7 +48,7 @@ class About extends Component {
                             <li>Writing</li>
                             <li>Finance</li>
                             <li>Photography</li>
-                            <li>Programing (obviously)</li>
+                            <li>Programming</li>
                             <li>Music Production / DJing</li>
                             <li>Calisthenics</li>
                         </FadeIn>
@@ -57,7 +57,7 @@ class About extends Component {
                             <li>Writing</li>
                             <li>Finance</li>
                             <li>Photography</li>
-                            <li>Programing (obviously)</li>
+                            <li>Programming</li>
                             <li>Music Production / DJing</li>
                             <li>Calisthenics</li>
                         </div>   
@@ -68,7 +68,7 @@ class About extends Component {
                                 <li>Writing</li>
                                 <li>Finance</li>
                                 <li>Photography</li>
-                                <li>Programing (obviously)</li>
+                                <li>Programming</li>
                                 <li>Music Production / DJing</li>
                                 <li>Calisthenics</li>
                             </div> 

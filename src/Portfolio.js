@@ -70,7 +70,8 @@ class Portfolio extends Component {
 
 
                     <ReactPlayer      className="d-flex justify-content-center align-end"
-                                        url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                        // url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                        url="https://www.youtube.com/watch?v=gNH9xXXhXA0&feature=youtu.be"
                                         muted={true}
                                         playing={true}
                                         loop={true}
@@ -103,7 +104,8 @@ class Portfolio extends Component {
         </iframe> */}
 
                             <ReactPlayer    className="d-flex justify-content-center align-end"
-                                            url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                            // url="https://www.youtube.com/watch?v=Q_L7lyYFSo8&feature=youtu.be"
+                                            url="https://www.youtube.com/watch?v=gNH9xXXhXA0"
                                             muted={true}                
                                             playing={true}
                                             loop={true}
@@ -134,11 +136,10 @@ class Portfolio extends Component {
             <div className="portfolio" id="portfolio">
                 <Row className="row-height-set-100-2">
                     <Col xl={4} lg={4} md={12} className={fixTopCol()}>
-                        <span id="portfolio-jared"> My recent projects include a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank" className="color-links">financial dashboard</a>, a&nbsp; 
-                            <a href={'https://introversion.io/'} target="_blank" className="color-links">music blog</a>, and 
-                            a few <a href={'https://debscupcakelove.com/'} 
-                            target="_blank" className="color-links">small business websites</a>.
-                        </span>
+                        <span id="portfolio-jared"> My recent projects include creating a <a class="color-links" href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard </a>,
+                           a variation of Conway's Game of Life, <a class="color-links" href={'https://jaredricardo.github.io/Pixel-Sorter/'}
+                            target="_blank">a pixel sorting application</a>, and building an e-commerce platform for <a class="color-links" href={'https://afreshsip.myshopify.com/'}> A Fresh Sip.</a> 
+                        </span> 
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>
                         <VisibilitySensor partialVisibility={true} offset={{top: 100}}>

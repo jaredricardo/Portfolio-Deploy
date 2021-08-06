@@ -15,7 +15,6 @@ class ContactBAW extends Component {
             email: 'Jaredricardo94@gmail.com',
             linkedIn: 'LinkedIn',
             gitHub: 'GitHub',
-            instagram: 'Instagram'
         }
     }
 
@@ -88,7 +87,6 @@ class ContactBAW extends Component {
         const email = this.state.email
         const linkedIn = this.state.linkedIn
         const gitHub = this.state.gitHub
-        const instagram = this.state.instagram
 
         // const visible = () => {
         //     return      <ul onLoad={randomizeThenDisplay(email, linkedIn, gitHub, instagram)} >
@@ -132,7 +130,6 @@ class ContactBAW extends Component {
                             <li>                {email}     </li>
                             <li ><a target="_blank" href="https://www.linkedin.com/in/jared-ricardo-5802b81b9/">   {linkedIn}  </a></li>
                             <li><a target="_blank" href="https://github.com/jaredricardo">    {gitHub}    </a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/jared_ricardo/">    {instagram}  </a></li>
                         </ul>
                     </Col>
 
