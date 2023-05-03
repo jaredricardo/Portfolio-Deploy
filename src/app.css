@@ -256,12 +256,16 @@
 /* RESUME COMPONENT  */
 
 .resume {
-    color: black;
+    color: #000;
     position: relative;
     width: 100%;
-    height: 100vh;
-    background-color: rgb(81, 252, 115);
+    min-height: 100vh;
+    background-color: #51fc73;
     z-index: 1;
+    padding: 2.5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .resume-header {
@@ -411,14 +415,17 @@ e
 /* RESUME BAW COMPONENT  */
 
 .resumeBAW {
-    color: black;
-    border-bottom: 2px dotted black;
-    background-color: white;
+    color: #000;
+    border-bottom: 2px dotted #000;
+    background-color: #fff;
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     z-index: 1;
-    
+    display: flex;
+    padding: 5% 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .resumeBAW ul {
