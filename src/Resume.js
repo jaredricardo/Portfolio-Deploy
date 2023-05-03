@@ -12,15 +12,20 @@ export default function Resume(props) {
                 <Col xl={6} lg={6} md={6} sm={12}> 
                 <Container>
                     <h2 className="resume-header">
-                        My skills include:
+                        Some of my skills include:
                     </h2> 
                     <ul>
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Bootstrap 4</li>
-                        <li>React (Router + Bootstrap) </li>
-                        <li>Shopify / Liquid </li>
+                        <li>Shopify / Liquid</li>
+                        <li>Bootstrap</li>
+                        <li>React + React Native</li>
+                        <li>Express.js</li>
+                        <li>MySql</li>
+                        <li>PHP</li>
+                        <li>Responsive Web Design</li>
+                        <li>A/B Testing</li>
                     </ul>
                     </Container>
                 </Col>
@@ -28,15 +33,14 @@ export default function Resume(props) {
                 <Col xl={6} lg={6} md={6} sm={12}>
                     <Container>
                     <h2 className="resume-header">
-                        Education, work, exhibitions:
+                        Education and work:
                     </h2> 
                     <ul>
-                        <li>Front-end developer intern - A Fresh Sip</li>
-                        <li>Captain / Server - Augustine NYC</li>
+                        <li>Full Stack Developer - iRecon Marketing (2022 - present )</li>
+                        <li>Web Developer - Freelance  (2021 - present )</li>
+                        <li>Web Developer - Obvi (2021 - 2022)</li>
+                        <li>Front-end developer intern - A Fresh Sip (2021)</li>
                         <li>The Ohio State University  - B.A. in English | Minor in finance </li>
-                        <li>Best in Show, photography, imageOHIO 2017</li>
-                        <li>Center Forward 2016, Center for Fine Art Photoshop - Denver, CO</li>
-                        <li>Intimacy, PH21, Gallery - Budapest, Hungary </li> 
                     </ul>
                     </Container> 
                 </Col>
@@ -44,8 +48,7 @@ export default function Resume(props) {
 
             <Row className="row-height-set-10 justify-content-center align-self-center">
                 <p>
-                    You can find my full resumé&nbsp;<a href={resume} target="_blank">here</a> and
-                    my arts CV&nbsp;<a href={cv} target="_blank">here</a>.
+                    You can find my full resumé&nbsp;<a href={resume} target="_blank">here</a>
                 </p>
             </Row>
           

@@ -138,7 +138,11 @@ class PortfolioBAW extends Component {
                     <Col xl={4} lg={4} md={12} className={fixTopCol()}>
                         <span id="portfolio-jared"> My recent projects include creating a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard</a>,  
                            a variation of Conway's Game of Life, <a href={'https://jaredricardo.github.io/Pixel-Sorter/'}
-                            target="_blank">a pixel sorting application</a>, and building an e-commerce platform for <a href={'https://afreshsip.myshopify.com/'}> A Fresh Sip.</a> 
+                            target="_blank">a pixel sorting application</a>, and building full stack e-commerce solutions for
+                            <a target="_blank" href={'https://afreshsip.myshopify.com/'}> A Fresh Sip</a>,&nbsp;
+                            <a target="_blank" href={'https://myobvi.com/'}>Obvi</a>,
+                            and&nbsp;
+                            <a target="_blank" href={'https://310nutrition.com/'}>310 Nutrition</a>.
                         </span> 
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>

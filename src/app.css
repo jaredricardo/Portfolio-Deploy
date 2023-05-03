@@ -270,6 +270,7 @@
 }
 
 .resume ul {
+    min-height: 350px;
     margin-top: 20px; 
     margin-bottom: 20px; 
     padding: 0;
@@ -421,7 +422,8 @@ e
 }
 
 .resumeBAW ul {
-    margin-top: 40px; 
+    margin-top: 20px; 
+    min-height: 350px;
     padding: 0;
 }
 
