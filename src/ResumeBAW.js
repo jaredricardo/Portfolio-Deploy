@@ -19,9 +19,8 @@ export default function ResumeBAW(props) {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Shopify / Liquid</li>
-                        <li>Bootstrap</li>
                         <li>React + React Native</li>
-                        <li>Express.js</li>
+                        <li>Playwright</li>
                         <li>MySql</li>
                         <li>PHP</li>
                         <li>Responsive Web Design</li>
@@ -36,8 +35,10 @@ export default function ResumeBAW(props) {
                         Education and work:
                     </h2> 
                     <ul>
-                        <li>Full Stack Developer - iRecon Marketing (2022 - present )</li>
-                        <li>Web Developer - Freelance  (2021 - present )</li>
+                        <li>Web Developer - Freelance  (2021 - present)</li>
+                        <li>Frontend Developer - True Classic (2024 - 2025)</li>
+                        <li>Frontend Developer - Lunar Solar Group (2023 - 2024)</li>
+                        <li>Full Stack Developer - iRecon Marketing (2022 - 2023)</li>
                         <li>Web Developer - Obvi (2021 - 2022)</li>
                         <li>Front-end developer intern - A Fresh Sip (2021)</li>
                         <li>The Ohio State University  - B.A. in English | Minor in finance </li>

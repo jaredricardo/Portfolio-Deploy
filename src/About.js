@@ -45,19 +45,19 @@ class About extends Component {
                     }) 
                 }, 4200)
                 return  <FadeIn transitionDuration = {600} delay={500}>
-                            <li>Writing</li>
-                            <li>Finance</li>
-                            <li>Photography</li>
                             <li>Programming</li>
+                            <li>Writing</li>
+                            <li>Muay Thai</li>
+                            <li>Photography</li>
                             <li>Music Production / DJing</li>
                             <li>Calisthenics</li>
                         </FadeIn>
             } else if (this.state.sectionRendered === true) {
                 return <div> 
-                            <li>Writing</li>
-                            <li>Finance</li>
-                            <li>Photography</li>
                             <li>Programming</li>
+                            <li>Writing</li>
+                            <li>Muay Thai</li>
+                            <li>Photography</li>
                             <li>Music Production / DJing</li>
                             <li>Calisthenics</li>
                         </div>   
@@ -65,10 +65,10 @@ class About extends Component {
         }
 
         const prerender =   <div style={{color: 'rgb(243, 252, 122)'}}> 
-                                <li>Writing</li>
-                                <li>Finance</li>
-                                <li>Photography</li>
                                 <li>Programming</li>
+                                <li>Writing</li>
+                                <li>Muay Thai</li>
+                                <li>Photography</li>
                                 <li>Music Production / DJing</li>
                                 <li>Calisthenics</li>
                             </div> 
@@ -77,7 +77,7 @@ class About extends Component {
             <div className="about" id="about">
                 <Row className="row-height-set-100">
                     <Col xl={6} lg={6} md={6} sm={12} className={fixTopCol()}>
-                        <span id="about-jared"> My name is Jared. I am a self-taught web developer with a wide range of interests, which include: </span>
+                        <span id="about-jared">My name is Jared. I am developer who specializes in Shopify development. I have a wide range of interests, which include: </span>
                     </Col>
                     <Col xl={6} lg={6} md={6} sm={12} className={fixBottomCol()}>
                       

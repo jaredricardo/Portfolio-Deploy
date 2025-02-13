@@ -322,10 +322,6 @@
     z-index: 1;
 }
 
-.contact img {
-    height: 60vh;
-    width: auto;
-}
 
 .contact ul {
     margin: 0;
@@ -514,8 +510,9 @@ e
     z-index: 1;
 }
 
-.contactBAW img {
-    height: 60vh;
+.contactBAW img,
+.contact img {
+    height: 75vh;
     width: auto;
 }
 
@@ -644,22 +641,17 @@ e
 
 
 @media screen and (max-width: 763px) {
-    .contactBAW img {
-        height: 40vh;
-        width: auto;
-    }
-    .contact img {
-        height: 40vh;
+    .contactBAW img,
+    .contact img  {
+        height: 55vh;
         width: auto;
     }
 }
 
 @media screen and (max-width: 623px) {
-    .contactBAW img {
-        margin-bottom: 40px;
-    }
+    .contactBAW img,
     .contact img {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
 

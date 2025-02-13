@@ -136,14 +136,20 @@ class PortfolioBAW extends Component {
             <div className="portfolioBAW" id="portfolio">
                 <Row className="row-height-set-100-2">
                     <Col xl={4} lg={4} md={12} className={fixTopCol()}>
-                        <span id="portfolio-jared"> My recent projects include creating a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard</a>,  
-                           a variation of Conway's Game of Life, <a href={'https://jaredricardo.github.io/Pixel-Sorter/'}
-                            target="_blank">a pixel sorting application</a>, and building full stack e-commerce solutions for
-                            <a target="_blank" href={'https://afreshsip.myshopify.com/'}> A Fresh Sip</a>,&nbsp;
-                            <a target="_blank" href={'https://myobvi.com/'}>Obvi</a>,
-                            and&nbsp;
-                            <a target="_blank" href={'https://310nutrition.com/'}>310 Nutrition</a>.
-                        </span> 
+                    <span id="portfolio-jared"> 
+                        My recent projects include creating a <a href={'https://jaredricardo.github.io/Stock-Screener-Deploy/'} target="_blank">financial dashboard</a>,
+                        a variation of Conway's Game of Life, <a href={'https://jaredricardo.github.io/Pixel-Sorter/'}
+                        target="_blank">a pixel sorting application</a>, and building full stack e-commerce solutions for
+                            <a target="_blank" href={'https://myobvi.com/'}> Obvi</a>,
+                            &nbsp;
+                            <a target="_blank" href={'https://310nutrition.com/'}>310 Nutrition</a>,
+                            &nbsp;
+                            <a target="_blank" href={'https://lunarsolargroup.com/'}>Lunar Solar Group</a>,
+                            &nbsp;
+                            and
+                            &nbsp;
+                            <a target="_blank" href={'https://trueclassic.com/'}>True Classic Tees</a>.
+                    </span> 
                     </Col>
                     <Col xl={8} lg={8} md={12} className={fixBottomCol()}>
                         <VisibilitySensor partialVisibility={true} offset={{top: 100}}>
